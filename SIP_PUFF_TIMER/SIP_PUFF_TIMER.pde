@@ -59,8 +59,6 @@ void draw(){
       sip_timer_0 = millis();
       sip_timer = 0;
     }
-    myText = "Sipping";
-    sip_timer = 0;
   }
   else if (current_mpxv > (NOM + 50)){
     if (current_mpxv > _PUFF_THD){
@@ -106,10 +104,6 @@ void draw(){
   textSize(text_size);
   fill(220, 75, current_mpxv - 128);
   text(myText, width / 2 - text_size, height / 2 - 256);
-  //println(current_mpxv);
-  
-  //println("Sip Timer: " + sip_timer);
-  //println("Puff Timer: " + puff_timer);
 }
 
 void serialEvent(final Serial s){
