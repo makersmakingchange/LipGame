@@ -2,7 +2,7 @@
 
 **This project is designed to give users idea of how Sip and Puff features work.**
   
-**Instructions**  
+**Instructions**
 1. You need a LipSycn to play the games.
 2. Upload firmware <LipSync_Firmware_LipGame_Edition.ino> to your LipSync.
 3. If you don't have "Processing" on your computer, please downloand and install it from https://processing.org/
