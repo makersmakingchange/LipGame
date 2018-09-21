@@ -14,8 +14,8 @@ int current_mpxv;
 int[] mpxv_array;
 int window_size;
 
-int text_size;
-String myText;
+int text_size = 64;
+String myText = "Rest";
 
 String timeText = "";
 int sip_timer_0 = 0, puff_timer_0 = 0;
