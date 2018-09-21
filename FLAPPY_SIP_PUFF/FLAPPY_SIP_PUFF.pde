@@ -26,6 +26,7 @@ void setup(){
 void draw(){
 	background(55);
   current_mpxv = int(myString);
+  puff_start(current_mpxv);
   b.yPos = int(map(current_mpxv, 0, 1023, 0, height));
 	if(end){
 		b.move();
@@ -128,12 +129,22 @@ void reset(){
 	}
 }
 
-void mousePressed(){
-	intro=false;
-	if(end==false){
-		reset();
-	}
+void puff_start(int mmmm){
+  if (mmmm < (500)){
+    intro = false;
+    if (end == false){
+      reset();
+    }
+  }
+  
 }
+
+//void mousePressed(){
+//	intro=false;
+//	if(end==false){
+//		reset();
+//	}
+//}
 
 void serialEvent(final Serial s){
   myString = s.readString().trim();
