@@ -26,7 +26,7 @@ void setup(){
 void draw(){
 	background(55);
   current_mpxv = int(myString);
-  b.yPos = int(map(current_mpxv, 1023, 0, 0, height));
+  b.yPos = int(map(current_mpxv, 0, 1023, 0, height));
 	if(end){
 		b.move();
 	}
@@ -48,7 +48,7 @@ void draw(){
 		rect(150,200,200,50);
 		fill(255);
 		if(intro){
-			text("Click to Play",155,240);
+			text("Puff to Play",155,240);
 		}
 		else{
 			text("game over",170,140);
