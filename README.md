@@ -14,3 +14,7 @@ It is a game that the player moves a little circle up and down by puff and sip t
 **SIP PUFF TIMER**  
 It is a tool to demostrate the idea how Sip&Puff feature of LipSync works.  
 The timer will be triggered when sip and puff action pass the preseted threshold.
+
+<!-- ABOUT MMC START -->
+
+<!-- ABOUT MMC END -->
